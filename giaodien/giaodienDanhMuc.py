@@ -120,7 +120,7 @@ class CategoryApp:
         if self.tree.selection():
             self.tree.selection_remove(self.tree.selection()[0])
 
-    def on_item_select(self, event):
+    def on_item_select(self):
         """Khi người dùng bấm vào một mục trong bảng, điền thông tin lên form"""
         try:
             selected_item_iid = self.tree.selection()[0]
