@@ -5,7 +5,7 @@ from tkinter import ttk, messagebox
 class CategoryApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Quản lý Danh mục")
+        self.root.title("QL Danh mục (Cập nhật)")
         self.root.geometry("800x600")
 
         # --- Dữ liệu giả lập (Lấy từ ảnh của bạn) ---
